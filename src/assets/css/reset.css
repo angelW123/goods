@@ -1,0 +1,52 @@
+html{
+  font-size: 13.333333vw;
+}
+::-webkit-scrollbar {display: none;}
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: '微软雅黑';
+  font-size: 12px;
+}
+
+h1,h2,h3,h4,h5,h6,strong,b{
+  font-weight: normal;
+}
+ul,li,ol{
+  list-style: none;
+}
+a,u{
+  text-decoration: none;
+}
+em,i{
+  font-style: normal;
+}
+img{
+  display: block;
+}
+input{
+  border: 0;
+  outline: none;
+}
+a{
+  color: #333;
+}
+
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+
+/* 解决高度塌陷 */
+.clean:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.clean{
+  zoom: 1;
+}
