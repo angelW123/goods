@@ -35,8 +35,16 @@ export const HotCateWrap = styled.div `
     border-bottom: solid 1px #ccc;
   }
   .item{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
     img{
-      margin: 0 auto;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    span{
+      margin-top: 0.28rem;
     }
   }
 `
